@@ -1,0 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+    "name": "Cookbook",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "runArgs": ["--name", "cookbook_devcontainer"],
+    "remoteUser": "vscode",
+    "shutdownAction": "stopContainer"
+}
+
